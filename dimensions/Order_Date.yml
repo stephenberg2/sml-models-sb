@@ -1,0 +1,18 @@
+unique_name: Order_Date
+object_type: dimension
+label: Order Date
+hierarchies:
+  - unique_name: Order_Date_Hierarchy
+    label: Order Date Hierarchy
+    levels:
+      - unique_name: Order_Date_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Order_Date_Level
+    label: Order Date Level
+    contains_unique_names: false
+    dataset: factinternetsales
+    key_columns:
+      - orderdate
+    name_column: orderdate
+type: standard
