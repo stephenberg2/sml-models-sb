@@ -1,0 +1,18 @@
+unique_name: Sales_Order_Number
+object_type: dimension
+label: Sales Order Number
+hierarchies:
+  - unique_name: Sales_Order_Number_Hierarchy
+    label: Sales Order Number Hierarchy
+    levels:
+      - unique_name: Sales_Order_Number_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Sales_Order_Number_Level
+    label: Sales Order Number Level
+    contains_unique_names: false
+    dataset: factinternetsales
+    key_columns:
+      - salesordernumber
+    name_column: salesordernumber
+type: standard
