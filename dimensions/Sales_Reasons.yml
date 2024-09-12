@@ -1,0 +1,18 @@
+unique_name: Sales_Reasons
+object_type: dimension
+label: Sales Reasons
+hierarchies:
+  - unique_name: Sales_Reasons_Hierarchy
+    label: Sales Reasons Hierarchy
+    levels:
+      - unique_name: Sales_Reasons_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Sales_Reasons_Level
+    label: Sales Reasons Level
+    contains_unique_names: false
+    dataset: factinternetsales
+    key_columns:
+      - sales_reasons
+    name_column: sales_reasons
+type: standard

@@ -1,0 +1,17 @@
+unique_name: sales insights
+object_type: model
+label: sales insights
+dimensions:
+  - Sales_Order_Number
+  - Order_Date
+  - Currency_Key
+  - Product_Key
+  - Sales_Reasons
+metrics:
+  - unique_name: Order Quantity
+    folder: Metrics
+  - unique_name: Unit Price
+    folder: Metrics
+  - unique_name: Sales Amount
+    folder: Metrics
+relationships: []
