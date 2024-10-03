@@ -1,6 +1,6 @@
 unique_name: con_hive_metastore_as_adventure
 object_type: connection
 label: con_hive_metastore_as_adventure
-as_connection: databricks
+as_connection: databricks impersonation
 database: hive_metastore
 schema: as_adventure
